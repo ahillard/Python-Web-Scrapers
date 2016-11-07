@@ -1,3 +1,5 @@
+#Andrew Hillard Election Scraper
+
 import urllib2, csv
 import mechanize
 from bs4 import BeautifulSoup
