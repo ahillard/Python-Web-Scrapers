@@ -1,4 +1,13 @@
-#The following code generates a csv, scatter plot, and heat map, with the crimes of a certain type over a specified range of dates. 
+
+##########################################################################################################################################
+#DESCRIPTION
+#The code uses the City of Chicago API for Crimes, 2001 to the Present. The user provides the type of crime and range of 
+#dates that they are interested in viewing. The output is a CSV, scatter plot, and heat map of crimes 
+
+#The maps are created using the gmplot package, which is documented in the github repository below.
+#https://github.com/vgm64/gmplot
+##########################################################################################################################################
+
 import json, requests, datetime, gmplot, csv, requests
 
 
