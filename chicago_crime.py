@@ -27,7 +27,7 @@ crimeIndex = int(raw_input("Enter the number for the type of crime you want to s
 crimeType = primaryType[crimeIndex]
 
 #Prompt use for date range
-print("Between what two dates do you want crime records?")
+print("Between what two dates do you want crime records? Dates must be after 2001.")
 date1 = raw_input("Please enter Beginning Date using the format YYYY-MM-DD:     ")
 date2 = raw_input("Please enter Ending Date using the format YYYY-MM-DD:    ")
 
